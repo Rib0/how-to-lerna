@@ -18,5 +18,6 @@
   },
   "scripts": {
     "test": "node ./__tests__/@how_to_lerna/package_1.test.js"
-  }
+  },
+  "gitHead": "b4ff7ec27ab8a3109c90acbc3ab3fc8640133428"
 }
