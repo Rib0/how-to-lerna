@@ -1,0 +1,29 @@
+{
+  "name": "@how_to_lerna/package_2",
+  "version": "1.0.1",
+  "description": "package_2",
+  "author": "Сиденко Никита Сергеевич <NSidenko@alfabank.ru>",
+  "homepage": "https://github.com/Rib0/how-to-lerna#readme",
+  "license": "ISC",
+  "main": "build/main.js",
+  "module": "src/index.jsx",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rib0/how-to-lerna.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --mode=development",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/Rib0/how-to-lerna/issues"
+  }
+}

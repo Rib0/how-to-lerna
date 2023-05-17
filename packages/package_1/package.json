@@ -7,17 +7,19 @@
   "license": "ISC",
   "main": "lib/package_1.js",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "test": "node ./__tests__/@how_to_lerna/package_1.test.js"
+    "build": "webpack",
+    "dev": "webpack serve --mode=development",
+    "test": "jest"
   },
-  "gitHead": "b4ff7ec27ab8a3109c90acbc3ab3fc8640133428"
+  "gitHead": "008ef5031e7e925927d6daf64ce0afc6c3f5cb68"
 }
