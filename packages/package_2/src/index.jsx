@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 export const Component_2 = () => {
 
     return (
-        <div>Iss am Component from package_2</div>
+        <div>Iss am Component from package_2, hi</div>
     )
 };
 
