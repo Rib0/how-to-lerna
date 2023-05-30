@@ -1,10 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { Component_1 } from '@how_to_lerna/package_1';
 
 export const Component_2 = () => {
 
     return (
-        <div>Iss am Component from package_2, hi</div>
+        <div>I am Component from package_2, hi <Component_1 /></div>
     )
 };
 

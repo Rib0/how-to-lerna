@@ -8,7 +8,8 @@ const config = {
     devServer: {
         static: {
             directory: path.resolve(__dirname, './')
-        }
+        },
+        hot: true
     },
     module: {
         rules: [
@@ -20,14 +21,8 @@ const config = {
         ],
     },
     resolve: {
-        symlinks: false,
         cacheWithContext: false,
         extensions: ['.js', '.jsx', '.json', '.tsx', '.ts'],
-        modules: [
-            'node_modules',
-            path.resolve(__dirname, 'src/javascript'),
-            path.resolve(__dirname, 'src'),
-        ],
     },
 };
 

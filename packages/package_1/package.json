@@ -5,7 +5,8 @@
   "author": "Сиденко Никита Сергеевич <NSidenko@alfabank.ru>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/package_1.js",
+  "main": "build/main.js",
+  "module": "src/index.jsx",
   "directories": {
     "lib": "src",
     "test": "__tests__"

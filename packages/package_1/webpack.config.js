@@ -20,7 +20,6 @@ const config = {
         ],
     },
     resolve: {
-        symlinks: false,
         cacheWithContext: false,
         extensions: ['.js', '.jsx', '.json', '.tsx', '.ts'],
         modules: [

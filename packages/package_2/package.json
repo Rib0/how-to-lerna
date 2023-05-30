@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/Rib0/how-to-lerna/issues"
+  },
+  "dependencies": {
+    "@how_to_lerna/package_1": "*"
   }
 }
